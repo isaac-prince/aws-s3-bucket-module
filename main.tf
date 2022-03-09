@@ -83,3 +83,4 @@ resource "aws_dynamodb_table" "dynamodb_table" {
   tags = {
     ResourceGroup = local.namespace
   }
+}
